@@ -1,10 +1,13 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """Reads from standard input and computes metrics
 """
+=======
+"""Reads from standard input and computes metrics"""
+>>>>>>> da2c82145c2d0d8647832f2e1a5b1faf51f8fe9e
 
 def print_stats(size, status_codes):
-    """Print accumulated metrics
-    """
+    """Print accumulated metrics"""
     print("File size: {}".format(size))
     for key in sorted(status_codes):
         print("{}: {}".format(key, status_codes[key]))
