@@ -1,5 +1,7 @@
-#!/usr/bin/pythoni3
-"""Add all arguments to a Python list and save them to a file."""
+#!/usr/bin/python3
+"""This module adds all arguments to a Python list and save them to a file."""
+
+
 import sys
 
 if __name__ == "__main__":
